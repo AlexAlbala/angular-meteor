@@ -18,9 +18,9 @@ Package.onUse(function (api) {
   api.versionsFrom('1.6.1');
   api.use([
     'ecmascript',
-    'babel-compiler@7.0.0',
-    'angular-html-compiler@0.3.2',
-    'angular-scss-compiler@0.3.2'
+    'babel-compiler@7.5.3',
+    'angular-html-compiler@0.3.4',
+    'angular-scss-compiler@0.3.4'
   ], 'server');
   api.mainModule('index.js', 'server');
 });
